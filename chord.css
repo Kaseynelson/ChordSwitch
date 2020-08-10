@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+.svg-icon {
+  width: 2.25em;
+  height: 2.25em;
+    position: absolute;
+    padding-bottom: 5px;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #299617;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+body{
+    background-color: #4A646C;
+}
+form{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.container {
+    width: 50%;
+    margin: 25px auto;
+}
+h3{
+    font-size: 29px;
+}
+
+.input-group {
+    width: auto;
+    position: relative;
+    font-size: 21px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+input[type="number"] {
+  text-align: right;
+    color: black;
+    font-size: 30px;
+}
+input[type="text"] {
+  text-align: right;
+    color: black;
+    font-size: 30px;
+}
+input::placeholder{
+    text-align: right;
+    color: black;
+    font-size: 25px;
+    
+}
+button {
+  width: 175px;
+  display: block;
+border-radius: 25px;
+    margin-top: 15px;
+  margin-bottom: 10px;
+padding-bottom: 5px;
+  background-color:cyan;
+}
+#chord-box{
+    margin: 25px auto;
+    width: 350px;
+    height: 250px;
+}
+#notes{
+    text-align: center;
+}
+#btn2 {
+    font-size: 2.25em;
+    color: #299617;
+    position: absolute;
+    
+}
